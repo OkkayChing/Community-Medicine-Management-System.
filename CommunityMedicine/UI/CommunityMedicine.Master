@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CommunityMedicine.master.cs" Inherits="CommunityMedicine.CommunityMedicine" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Community Medicine</title>
+    <link href="../Contents/css/style.css" rel="stylesheet" />
+   
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     
+    <form id="form1" runat="server">
+    <div class="header">
+            <div>
+                <div>
+                    <p>Community Medicine Automation</p>
+                
+                </div>
+                <ul>
+                
+                    <li class="selected"><a href="Home.aspx">Home</a>
+
+                    </li>
+                    <li>
+                        <a href="MedicineEntryPage.aspx">Medicine</a>
+
+                    </li>
+                    <li>
+                        <a href="DiseaseEntryPage.aspx">Disease</a>
+
+                    </li>
+                    <li>
+                        <a href="CenterEntryPage.aspx">Center</a>
+
+                    </li>
+                    <li>
+                        <a href="SendMedicinePage.aspx">Send Medicine</a>
+
+                    </li>
+                        
+                    
+                    <li>
+                        <a href="DiseaseWiseReport.aspx">Report</a>
+                    </li>
+                    <li>
+                        <a href="#">Graph</a>
+                    </li>
+                    <li>
+                        <a href="BarChart.aspx">Bar Chart</a>
+                    </li>
+                    <li>
+                        <a href="CenterLoginPage.aspx">Login</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+        </div>
+        <div class="body">
+
+            
+
+            <div class="section">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            </div>
+           
+           </div>
+
+
+
+
+        <div class="footer">
+
+            <h1>Developed & Designed By RGB</h1>
+        </div>
+    </form>
+</body>
+</html>
